@@ -23,7 +23,7 @@ JavaScript Runtime Required
 ===============================
 
 Rails 3.1 requires special handling on Linux for the JavaScript runtime.  
-Without a runtime,  *rails server* or *rake* results in the following error message:
+Without a runtime, rails commands like  *rails server* throw an exception and says:
 
 
     Linux Could not find a JavaScript runtime.  
@@ -31,7 +31,7 @@ Without a runtime,  *rails server* or *rake* results in the following error mess
     for a list of available runtimes.  
     (ExecJS::RuntimeUnavailable)
 
-To fix this error either *install node.js* (with: sudo apt-get nodejs)  
+To fix this error either **install node.js** (with: sudo apt-get nodejs)  
 
 OR
 
