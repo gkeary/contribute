@@ -22,7 +22,7 @@ Done! There's no database requirement (in fact, ActiveRecord is not loaded at al
 JavaScript runtime required
 ===============================
 
-On Linux, Rails 3.1 requires a JavaScript runtime.  When Rails can't find one, it throws the following 
+Rails 3.1 special handling on Linux for the JavaScript runtime.  When it can find one, it throws the following 
 exception message: 
 
 
@@ -35,9 +35,9 @@ To fix this error either *install node.js* (with: sudo apt-get nodejs)
 
 OR
 
-Include 'therubyracer' in your Gemfile.  To use the ruby racer in rails, or any application using Bundler to manage gems, add the following to your Gemfile
+Include **'therubyracer'** in your Gemfile.  To use the ruby racer in rails, or any application using Bundler to manage gems, add the following to your Gemfile
 
-   gem "therubyracer", :require => 'v8'
+    gem "therubyracer", :require => 'v8'
 
 Adding links
 ============
