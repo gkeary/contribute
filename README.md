@@ -22,8 +22,8 @@ Done! There's no database requirement (in fact, ActiveRecord is not loaded at al
 JavaScript Runtime Required
 ===============================
 
-Rails 3.1 requires special handling on Linux for the JavaScript runtime.  
-Without a runtime, rails commands like  *rails server* throw an exception and says:
+Rails 3.1 needs a Javascript runtime and on Linux this requires special handling.  
+Without a runtime, rails commands like  *rails server* throw an exception saying:
 
 
     Linux Could not find a JavaScript runtime.  
